@@ -1,0 +1,60 @@
+/* 0-styles.css */
+
+/* Reset default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the list */
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* Style list items */
+li {
+    width: 200px;
+    height: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin:  10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url('0-sprite.png');
+    background-repeat: no-repeat;
+    background-size: 600px 400px; 
+}
+
+
+li:nth-child(1) {
+    background-position: 0 50;
+}
+
+li:nth-child(2) {
+    background-position: -200px 0;
+}
+
+li:nth-child(3) {
+    background-position: -400px 0;
+}
+
+.i-html {
+    background-position: 0 0;
+}
+
+.i-css {
+    background-position: -70px 0;
+}
+
+.i-js {
+    background-position: -140px 0;
+}
